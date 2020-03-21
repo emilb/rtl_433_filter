@@ -62,5 +62,6 @@ client.on('message', (topic, message) => {
       temperature: tempReport.temperature_C,
       humidity: tempReport.humidity
     })
+    .then()
     .catch(console.error);
 });
