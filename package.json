@@ -1,0 +1,26 @@
+{
+  "name": "rtl_433_filter",
+  "version": "1.0.0",
+  "author": "Emil Breding",
+  "description": "A filter for temperature readings published on MQTT",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ./",
+    "test": "jest",
+    "watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "@stryker-mutator/core": "^2.1.0",
+    "@stryker-mutator/javascript-mutator": "^2.1.0",
+    "@stryker-mutator/jest-runner": "^2.1.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "influxdb-nodejs": "^3.1.0",
+    "mqtt": "^3.0.0"
+  }
+}
