@@ -9,7 +9,10 @@ const influxClient = new Influx(`http://${influxdb_host}:8086/${influxdb_databas
 let sensorConfig = {
   147: 'kitchen',
   175: 'garage',
-  206: 'outside-front'
+  206: 'outside-front',
+  77:  'outside-back',
+  245: 'upper-floor',
+  97:  'basement',
 }
 
 let lastReportTime = {};
